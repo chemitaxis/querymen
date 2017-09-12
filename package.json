@@ -1,6 +1,6 @@
 {
-  "name": "querymen",
-  "version": "2.1.3",
+  "name": "querymen-custom",
+  "version": "2.1.5",
   "description": "Querystring parser middleware for MongoDB, Express and Nodejs",
   "main": "dist/index.js",
   "files": [
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diegohaz/querymen.git"
+    "url": "git+https://github.com/chemitaxis/querymen.git"
   },
   "keywords": [
     "mongo",
@@ -45,7 +45,7 @@
   "author": "Diego Haz <hazdiego@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/diegohaz/querymen/issues"
+    "url": "https://github.com/chemitaxis/querymen/issues"
   },
   "homepage": "https://github.com/diegohaz/querymen#readme",
   "devDependencies": {

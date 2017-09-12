@@ -1,5 +1,5 @@
-/** @module querymen */
-import _ from 'lodash'
+/** @module querymen-custom */
+
 import Param from './querymen-param'
 import Schema from './querymen-schema'
 
@@ -13,7 +13,7 @@ export let handlers = {
 
 /**
  * Get or set a handler.
- * @memberof querymen
+ * @memberof querymen-custom
  * @param {string} type - Handler type.
  * @param {string} name - Handler name.
  * @param {Function} [fn] - Set the handler method.
@@ -28,7 +28,7 @@ export function handler (type, name, fn) {
 
 /**
  * Get or set a parser.
- * @memberof querymen
+ * @memberof querymen-custom
  * @param {string} name - Parser name.
  * @param {parserFn} [fn] - Set the parser method.
  * @return {parserFn} The parser method.
@@ -39,7 +39,7 @@ export function parser (name, fn) {
 
 /**
  * Get or set a formatter.
- * @memberof querymen
+ * @memberof querymen-custom
  * @param {string} name - Formatter name.
  * @param {formatterFn} [fn] - Set the formatter method.
  * @return {formatterFn} The formatter method.
@@ -61,7 +61,7 @@ export function validator (name, fn) {
 
 /**
  * Create a middleware.
- * @memberof querymen
+ * @memberof querymen-custom
  * @param {QuerymenSchema|Object} [schema] - Schema object.
  * @param {Object} [options] - Options to be passed to schema.
  * @return {Function} The middleware.
@@ -86,7 +86,7 @@ export function middleware (schema, options) {
 
 /**
  * Error handler middleware.
- * @memberof querymen
+ * @memberof querymen-custom
  * @return {Function} The middleware.
  */
 export function errorHandler () {
